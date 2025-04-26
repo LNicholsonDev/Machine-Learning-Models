@@ -1,13 +1,13 @@
-# AI240
-Repository for Machine Learning
+# AI240</br>
+Repository for Machine Learning</br>
 
-# Projects
+# Projects</br>
 
-# Week 2: 
-Pandas Exercise
+# Week 2: </br>
+Pandas Exercise</br>
 
-# Week 3: 
-Numpy Exercise
-MatplotLib Exercise
-Seaborn Exercise
+# Week 3: </br>
+Numpy Exercise</br>
+MatplotLib Exercise</br>
+Seaborn Exercise</br>
 
