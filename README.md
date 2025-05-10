@@ -10,3 +10,5 @@ Repository for Machine Learning</br>
 
 **Seaborn Exercise:**  This Seaborn exercise covers installation, viewing data, loading datasets, pairplots, boxplots, violin plots, histograms, swarm plots, bar plots, and heatmaps. </br>
 
+# Week 4: </br>
+**Simple Linear Regression Machine Learning Model:** The model was trained to identify Salary based on Years of Experience given a simple training dataset. Model uses linear regression, and splits data into 80/20 training/testing sets.
