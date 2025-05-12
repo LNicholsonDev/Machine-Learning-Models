@@ -14,4 +14,4 @@ Repository for Machine Learning</br>
 **Simple Linear Regression Machine Learning Model:** The model was trained to identify Salary based on Years of Experience given a simple training dataset. Model uses linear regression, and splits data into 80/20 training/testing sets.
 
 # Week 5: </br>
-**Classification ML Model:** Created model to help make predictions to assist doctors and healthcare providers in diagnosis of potential heart disease. Model predicts which patients are most likely to suffer from a heart disease in the near future using the features given.
+**Logistic ML Model:** A classification model to help make predictions to assist doctors and healthcare providers in diagnosis of potential heart disease. Model predicts which patients are most likely to suffer from a heart disease in the near future using the features given.
