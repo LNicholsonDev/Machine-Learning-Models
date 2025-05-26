@@ -15,3 +15,6 @@ Repository for Machine Learning</br>
 
 # Week 5: </br>
 **Logistic ML Model:** A classification model to help make predictions to assist doctors and healthcare providers in diagnosis of potential heart disease. Model predicts which patients are most likely to suffer from a heart disease in the near future using the features given.
+
+# Week 7: <br/>
+**Naive Bayes ML Model:** A classification model to help make predictions to assist in the diagnosis of Diabetes. Model predicts which patients are most likely to have Diabetes given parameters on their health. Naive Bayes models generally have lower accuracy, given that they assume feature independence (hence, Naive) but can still be useful in certain diagnostic contexts. 
