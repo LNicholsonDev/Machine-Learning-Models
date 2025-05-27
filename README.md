@@ -1,5 +1,5 @@
-# AI240</br>
-Repository for Machine Learning</br>
+# Machine Learning</br>
+Repository for Machine Learning projects.</br>
 
 # Projects</br>
 
