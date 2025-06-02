@@ -18,3 +18,6 @@ Repository for Machine Learning projects.</br>
 
 # Week 7: <br/>
 **Naive Bayes ML Model:** A classification model to help make predictions to assist in the diagnosis of Diabetes. Model predicts which patients are most likely to have Diabetes given parameters on their health. Naive Bayes models generally have lower accuracy, given that they assume feature independence (hence, Naive) but can still be useful in certain diagnostic contexts. 
+
+# Week 8: <br/>
+**Decision Tree ML Model:** A decision tree is a model that splits data into branches based on feature conditions, helping to classify or predict outcomes. It visually shows the decision-making process, revealing how different attributes influence the final result. This model predicts likelihood of loan repayment given information about the individual's habits/credit history.
