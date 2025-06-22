@@ -25,5 +25,5 @@ Repository for Machine Learning projects.</br>
 # Week 9: <br/>
 **Neural Network ML Model:** A neural network consists of multiple layers of interconnected neurons that transform input data into learned patterns. By adjusting weights through iterative training, this kind of model excels in many tasks - like classification, regression, and generation. Here, a neural network was created to predict Customer Churn - whether a customer is likely to leave a service. This enables businesses to take preventative actions in order to retain their customer.
 
-# Project:  Predicting Crop Yields via Neural Network
-**Neural Network ML Model:** A neural network was implemented to predict crop yield given historical agricultural data, including region, rainfall, and temperatures. 
+# Project:  Predicting Crop Yields via Decision Tree
+**Decision Tree ML Model:** A decision tree was implemented to predict crop yield given historical agricultural data, including region, rainfall, and temperatures. 
