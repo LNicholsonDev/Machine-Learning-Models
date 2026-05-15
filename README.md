@@ -5,7 +5,7 @@ across healthcare, agriculture, finance, and business. Built and
 evaluated in Python using Scikit-learn and TensorFlow.
 
 The healthcare models draw on biological domain knowledge in feature 
-selection and result interpretation — clinical variables carry 
+selection and result interpretation - clinical variables carry 
 physiological interdependencies that shape which features are meaningful 
 predictors and which are noise.
 
@@ -14,7 +14,7 @@ predictors and which are noise.
 ## Capstone: Crop Yield Prediction
 
 The largest project in this repository. A decision tree model trained 
-on historical agricultural data — region, rainfall, and temperature — 
+on historical agricultural data - region, rainfall, and temperature - 
 to forecast crop yield.
 
 | Metric | Score |
@@ -64,5 +64,5 @@ train/test split, training, and evaluation with inline commentary and
 output visualizations.
 
 The root directory also contains standalone NumPy, Matplotlib, and 
-Seaborn exercises — library practice notebooks, distinct from the 
+Seaborn exercises - library practice notebooks, distinct from the 
 project work above.
