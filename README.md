@@ -1,29 +1,68 @@
-# Machine Learning</br>
-Repository for Machine Learning projects.</br>
+# Machine Learning Models
 
-# Projects</br>
+Supervised learning applied to classification and regression problems 
+across healthcare, agriculture, finance, and business. Built and 
+evaluated in Python using Scikit-learn and TensorFlow.
 
-# Package Implementation: </br>
-**Numpy Exercise:**  This NumPy exercise covers installation, importing, array creation, indexing, slicing, sorting, searching, and joining arrays. Key skills include data manipulation, sorting, filtering, and reshaping. </br>
+The healthcare models draw on biological domain knowledge in feature 
+selection and result interpretation — clinical variables carry 
+physiological interdependencies that shape which features are meaningful 
+predictors and which are noise.
 
-**MatplotLib Exercise:**  This Matplotlib exercise covers installation, importing, barcharts, histogram, piecharts, sine waves, lines, labels, grid lines, scatterplot, 3d scatterplots, 3d bar graphs.</br>
+---
 
-**Seaborn Exercise:**  This Seaborn exercise covers installation, viewing data, loading datasets, pairplots, boxplots, violin plots, histograms, swarm plots, bar plots, and heatmaps. </br>
+## Capstone: Crop Yield Prediction
 
-# Week 4: Linear </br>
-**Linear Regression ML Model:** This simple model was trained to identify Salary based on Years of Experience given a simple training dataset. Model uses linear regression, and splits data into 80/20 training/testing sets.
+The largest project in this repository. A decision tree model trained 
+on historical agricultural data — region, rainfall, and temperature — 
+to forecast crop yield.
 
-# Week 5: Logistic </br>
-**Logistic ML Model:** A classification model to help make predictions to assist doctors and healthcare providers in diagnosis of potential heart disease. Model predicts which patients are most likely to suffer from a heart disease in the near future using the features given.
+| Metric | Score |
+|---|---|
+| Train R² | 0.978 |
+| Test R² | 0.9579 |
 
-# Week 7: Naive Bayes<br/>
-**Naive Bayes ML Model:** A classification model to help make predictions to assist in the diagnosis of Diabetes. Model predicts which patients are most likely to have Diabetes given parameters on their health. Naive Bayes models generally have lower accuracy, given that they assume feature independence (hence, Naive) but can still be useful in certain diagnostic contexts. 
+Minimal degradation from training to test indicates strong 
+generalization. Full feature analysis, methodology, and evaluation 
+outputs are documented in the project folder.
 
-# Week 8: Decision Tree<br/>
-**Decision Tree ML Model:** A decision tree is a model that splits data into branches based on feature conditions, helping to classify or predict outcomes. It visually shows the decision-making process, revealing how different attributes influence the final result. This model predicts likelihood of loan repayment given information about the individual's habits/credit history.
+[→ View Project](./Final%20Presentation%20-%20Decision%20Tree%20ML%20Model%20to%20Predict%20Crop%20Yield)
 
-# Week 9: Neural Network<br/>
-**Neural Network ML Model:** A neural network consists of multiple layers of interconnected neurons that transform input data into learned patterns. By adjusting weights through iterative training, this kind of model excels in many tasks - like classification, regression, and generation. Here, a neural network was created to predict Customer Churn - whether a customer is likely to leave a service. This enables businesses to take preventative actions in order to retain their customer.
+---
 
-# Larger Project:  Predicting Crop Yields via Decision Tree
-**Decision Tree ML Model:** A decision tree was implemented to predict crop yield given historical agricultural data, including region, rainfall, and temperatures. 
+## All Models
+
+| Project | Domain | Algorithm | Goal |
+|---|---|---|---|
+| [Crop Yield Prediction](./Final%20Presentation%20-%20Decision%20Tree%20ML%20Model%20to%20Predict%20Crop%20Yield) | Agriculture | Decision Tree | Forecast yield from region, rainfall, and temperature |
+| [Heart Disease Classification](./Logistic%20Regression%20Model%20-%20Predict%20Heart%20Disease) | Healthcare | Logistic Regression | Classify patient likelihood of heart disease from clinical diagnostic features |
+| [Diabetes Screening](./Naive%20Bayes%20ML%20Model%20-%20Predict%20Diabetes) | Healthcare | Naive Bayes | Predict diabetes diagnosis from patient health parameters |
+| [Loan Repayment Prediction](./Decision%20Tree%20ML%20Model%20-%20Predict%20Loan%20Repayment) | Finance | Decision Tree | Predict repayment likelihood from credit history and financial behavior |
+| [Customer Churn Prediction](./Neural%20Network%20ML%20Model%20-%20Predict%20Customer%20Churn) | Business | Neural Network | Identify customers at risk of churn to enable proactive retention |
+| [Salary Prediction](./Linear%20Regression%20ML%20Model) | Business | Linear Regression | Predict compensation from years of experience as a regression baseline |
+
+---
+
+## Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+
+---
+
+## Structure
+
+Each model is self-contained in its own folder with a Jupyter notebook 
+covering the full pipeline: exploratory analysis, preprocessing, 
+train/test split, training, and evaluation with inline commentary and 
+output visualizations.
+
+The root directory also contains standalone NumPy, Matplotlib, and 
+Seaborn exercises — library practice notebooks, distinct from the 
+project work above.
